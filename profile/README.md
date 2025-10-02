@@ -28,7 +28,7 @@
 
 <div align="center">
 
-| [<img src="https://avatars.githubusercontent.com/u/000000?v=4" width="100px;" style="border-radius:50%"><br>🐎 홍길동](https://github.com/honggildong) | [<img src="https://avatars.githubusercontent.com/u/111111?v=4" width="100px;" style="border-radius:50%"><br>🐎 김개발](https://github.com/kimdev) | [<img src="https://avatars.githubusercontent.com/u/222222?v=4" width="100px;" style="border-radius:50%"><br>🐎 이설계](https://github.com/leesul) | [<img src="https://avatars.githubusercontent.com/u/333333?v=4" width="100px;" style="border-radius:50%"><br>🐎 박분석](https://github.com/parkdata) | [<img src="https://avatars.githubusercontent.com/u/444444?v=4" width="100px;" style="border-radius:50%"><br>🐎 최디자](https://github.com/choidesign) |
+| [<img src="https://avatars.githubusercontent.com/u/000000?v=4" width="100px;" style="border-radius:50%"><br>🐎 홍길동](https://github.com/) | [<img src="https://avatars.githubusercontent.com/u/111111?v=4" width="100px;" style="border-radius:50%"><br>🐎 김개발](https://github.com/) | [<img src="https://avatars.githubusercontent.com/u/222222?v=4" width="100px;" style="border-radius:50%"><br>🐎 이설계](https://github.com/) | [<img src="https://avatars.githubusercontent.com/u/333333?v=4" width="100px;" style="border-radius:50%"><br>🐎 박분석](https://github.com/) | [<img src="https://avatars.githubusercontent.com/u/444444?v=4" width="100px;" style="border-radius:50%"><br>🐎 최디자](https://github.com/) |
 |:---:|:---:|:---:|:---:|:---:|
 | 팀장 / Backend<br>아키텍처 설계, API 개발 | Frontend<br>UI/UX, React 기능 구현 | Infra/DevOps<br>AWS, Docker, Jenkins 구축 | Data/AI<br>데이터 분석 및 모델 적용 | Designer<br>UI/UX 디자인, Figma |
 
