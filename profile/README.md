@@ -130,20 +130,284 @@ php-template
 
 ---
 
-## ⚙️ 설치 및 실행 방법
+## 📂 프로젝트 구조
 
-### 1. 환경 설정
-```bash
-git clone https://github.com/username/repo.git
-cd repo
-2. Backend 실행
-bash
-코드 복사
-cd backend
-./gradlew bootRun
-3. Frontend 실행
-bash
-코드 복사
-cd frontend
-npm install
-npm start
+<details>
+<summary>💻 FRONTEND</summary>
+
+```📦 src
+ ┣ 📂 app
+ ┃ ┣ 📂 about
+ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┣ 📂 farm
+ ┃ ┃ ┗ 📂 register
+ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┣ 📂 godonate
+ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┣ 📂 intro
+ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┣ 📂 kakao-pay
+ ┃ ┃ ┣ 📂 approve
+ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┃ ┣ 📂 cancel
+ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┃ ┗ 📂 fail
+ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┣ 📂 login
+ ┃ ┃ ┣ 📂 callback
+ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┣ 📂 mypage
+ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┣ 📂 qr-login
+ ┃ ┃ ┣ 📄 QrLoginInner.tsx
+ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┣ 📂 receipt
+ ┃ ┃ ┣ 📂 ocr
+ ┃ ┃ ┃ ┗ 📄 route.ts
+ ┃ ┃ ┣ 📂 verify-location
+ ┃ ┃ ┃ ┗ 📄 route.ts
+ ┃ ┃ ┗ 📂 verify-receipt
+ ┃ ┃ ┃ ┗ 📄 route.ts
+ ┃ ┣ 📂 shortcut
+ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┣ 📂 signup
+ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┣ 📂 support
+ ┃ ┃ ┣ 📂 [farm_uuid]
+ ┃ ┃ ┃ ┣ 📂 [horseNo]
+ ┃ ┃ ┃ ┃ ┣ 📂 [wreportId]
+ ┃ ┃ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┃ ┃ ┣ 📂 donate
+ ┃ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┃ ┃ ┣ 📂 edit
+ ┃ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┃ ┃ ┣ 📂 report
+ ┃ ┃ ┃ ┃ ┣ 📂 [reportId]
+ ┃ ┃ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┃ ┃ ┣ 📄 FarmDetailClient.tsx
+ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┣ 📂 wallet
+ ┃ ┃ ┗ 📂 create
+ ┃ ┃ ┃ ┗ 📄 page.tsx
+ ┃ ┣ 📄 favicon.ico
+ ┃ ┣ 📄 globals.css
+ ┃ ┣ 📄 layout.tsx
+ ┃ ┗ 📄 page.tsx
+ ┣ 📂 components
+ ┃ ┣ 📂 common
+ ┃ ┃ ┗ 📄 Breadcrumb.tsx
+ ┃ ┣ 📂 donation
+ ┃ ┃ ┣ 📄 DonationAmountSelector.tsx
+ ┃ ┃ ┣ 📄 DonationConfirmationModal.tsx
+ ┃ ┃ ┣ 📄 DonationForm.tsx
+ ┃ ┃ ┗ 📄 PaymentMethodSelector.tsx
+ ┃ ┣ 📂 farm
+ ┃ ┃ ┣ 📂 edit
+ ┃ ┃ ┃ ┣ 📂 _parts
+ ┃ ┃ ┃ ┃ ┗ 📄 LabeledInput.tsx
+ ┃ ┃ ┃ ┣ 📄 FarmBasicInfoPanel.tsx
+ ┃ ┃ ┃ ┣ 📄 HorseInfoPanel.tsx
+ ┃ ┃ ┃ ┗ 📄 HorseRegistrySection.tsx
+ ┃ ┃ ┣ 📂 panels
+ ┃ ┃ ┃ ┣ 📄 DonationPanel.tsx
+ ┃ ┃ ┃ ┣ 📄 DonationProgressChart.tsx
+ ┃ ┃ ┃ ┣ 📄 DonationUsageChart.tsx
+ ┃ ┃ ┃ ┣ 📄 HorsesPanel.tsx
+ ┃ ┃ ┃ ┣ 📄 IntroPanel.tsx
+ ┃ ┃ ┃ ┣ 📄 NewsletterPanel.tsx
+ ┃ ┃ ┃ ┣ 📄 ReceiptSubmissionProgress.tsx
+ ┃ ┃ ┃ ┣ 📄 TrustPanel.tsx
+ ┃ ┃ ┃ ┗ 📄 TrustScoreChart.tsx
+ ┃ ┃ ┣ 📂 report
+ ┃ ┃ ┃ ┣ 📄 DonationProofUpload.tsx
+ ┃ ┃ ┃ ┗ 📄 HorseImageUpload.tsx
+ ┃ ┃ ┣ 📄 FarmCard.tsx
+ ┃ ┃ ┣ 📄 FarmCarousel3D.tsx
+ ┃ ┃ ┣ 📄 FarmInfo.tsx
+ ┃ ┃ ┗ 📄 FarmTabs.tsx
+ ┃ ┣ 📂 mypage
+ ┃ ┃ ┣ 📄 AccountHistoryModal.tsx
+ ┃ ┃ ┣ 📄 AdminProfile.tsx
+ ┃ ┃ ┣ 📄 AdminReportHistory.tsx
+ ┃ ┃ ┣ 📄 DonationDetailModal.tsx
+ ┃ ┃ ┣ 📄 DonorFavoriteFarms.tsx
+ ┃ ┃ ┣ 📄 DonorProfile.tsx
+ ┃ ┃ ┣ 📄 DonorSupportHistory.tsx
+ ┃ ┃ ┣ 📄 FarmerDonationDetailModal.tsx
+ ┃ ┃ ┣ 📄 FarmerMyFarm.tsx
+ ┃ ┃ ┣ 📄 FarmerProfile.tsx
+ ┃ ┃ ┣ 📄 FarmerSupportHistory.tsx
+ ┃ ┃ ┗ 📄 ReceiptDetailModal.tsx
+ ┃ ┣ 📂 signup
+ ┃ ┃ ┣ 📄 TermsAgreement.tsx
+ ┃ ┃ ┗ 📄 TermsModal.tsx
+ ┃ ┣ 📂 ui
+ ┃ ┃ ┣ 📄 badge.tsx
+ ┃ ┃ ┣ 📄 button.tsx
+ ┃ ┃ ┣ 📄 card.tsx
+ ┃ ┃ ┣ 📄 input.tsx
+ ┃ ┃ ┗ 📄 tabs.tsx
+ ┃ ┗ 📄 Navbar.tsx
+ ┣ 📂 lib
+ ┃ ┣ 📄 gpsUtils.ts
+ ┃ ┗ 📄 utils.ts
+ ┣ 📂 services
+ ┃ ┣ 📄 apiService.ts
+ ┃ ┣ 📄 authService.ts
+ ┃ ┣ 📄 farmService.ts
+ ┃ ┣ 📄 paymentService.ts
+ ┃ ┗ 📄 userService.ts
+ ┗ 📂 types
+ ┃ ┣ 📄 auth.ts
+ ┃ ┣ 📄 farm.ts
+ ┃ ┣ 📄 payment.ts
+ ┃ ┗ 📄 user.ts
+```
+</details>
+<br>
+<details>
+<summary>🖥 BACKEND</summary>
+
+```📦 java/com/e105/majoong
+┣ 📂 ai
+┣ 📂 auth
+┃ ┣ 📂controller
+┃ ┣ 📂dto
+┃ ┃ ┣ 📂in
+┃ ┃ ┗ 📂out
+┃ ┣ 📂security
+┃ ┗ 📂service
+┣ 📂batch
+┃ ┣ 📂report
+┃ ┣ 📂score
+┃ ┃ ┣ 📂horseState
+┃ ┃ ┃ ┣ 📂config
+┃ ┃ ┃ ┣ 📂dto
+┃ ┃ ┃ ┣ 📂snapshot
+┃ ┃ ┃ ┗ 📂tasklet
+┃ ┃ ┣ 📂receipt
+┃ ┃ ┃ ┣ 📂config
+┃ ┃ ┃ ┣ 📂dto
+┃ ┃ ┃ ┣ 📂snapshot
+┃ ┃ ┃ ┗ 📂tasklet
+┃ ┗ 📂scheduler
+┣ 📂blockchain
+┃ ┣ 📂config
+┃ ┣ 📂props
+┃ ┣ 📂service
+┃ ┗ 📂util
+┣ 📂common
+┃ ┣ 📂config
+┃ ┣ 📂crypto
+┃ ┣ 📂entity
+┃ ┣ 📂exception
+┃ ┣ 📂jwt
+┃ ┣ 📂model
+┃ ┃ ┣ 📂bookmark
+┃ ┃ ┣ 📂coin
+┃ ┃ ┣ 📂donationHistory
+┃ ┃ ┣ 📂donator
+┃ ┃ ┣ 📂farm
+┃ ┃ ┣ 📂farmer
+┃ ┃ ┣ 📂farmVault
+┃ ┃ ┣ 📂horse
+┃ ┃ ┣ 📂horseState
+┃ ┃ ┣ 📂monthlyReport
+┃ ┃ ┣ 📂myScore
+┃ ┃ ┣ 📂oAuthMember
+┃ ┃ ┣ 📂receiptCategory
+┃ ┃ ┣ 📂receiptDetailHistory
+┃ ┃ ┣ 📂receiptHistory
+┃ ┃ ┣ 📂scoreCategory
+┃ ┃ ┗ 📂settlementHistory
+┃ ┣ 📂redis
+┃ ┗ 📂utils
+┣ 📂donation
+┃ ┣ 📂controller
+┃ ┣ 📂dto
+┃ ┃ ┣ 📂in
+┃ ┃ ┗ 📂out
+┃ ┗ 📂service
+┣ 📂farm
+┃ ┣ 📂controller
+┃ ┣ 📂dto
+┃ ┃ ┗ 📂out
+┃ ┣ 📂service
+┃ ┗ 📂util
+┣ 📂finance
+┃ ┣ 📂dto
+┃ ┃ ┗ 📂out
+┃ ┗ 📂service
+┣ 📂kakaoPay
+┃ ┣ 📂controller
+┃ ┣ 📂dto
+┃ ┃ ┣ 📂in
+┃ ┃ ┗ 📂out
+┃ ┗ 📂util
+┣ 📂manageFarm
+┃ ┣ 📂controller
+┃ ┣ 📂dto
+┃ ┃ ┣ 📂in
+┃ ┃ ┗ 📂out
+┃ ┗ 📂service
+┣ 📂member
+┃ ┣ 📂controller
+┃ ┣ 📂dto
+┃ ┃ ┣ 📂in
+┃ ┃ ┗ 📂out
+┃ ┗ 📂service
+┣ 📂mypage
+┃ ┣ 📂controller
+┃ ┣ 📂dto
+┃ ┃ ┣ 📂in
+┃ ┃ ┗ 📂out
+┃ ┗ 📂service
+┣ 📂receipt
+┃ ┣ 📂controller
+┃ ┣ 📂dto
+┃ ┃ ┣ 📂in
+┃ ┃ ┗ 📂out
+┃ ┗ 📂service
+┣ 📂report
+┃ ┣ 📂dto
+┃ ┃ ┗ 📂out
+┃ ┣ 📂repository
+┃ ┗ 📂service
+┣ 📂score
+┃ ┣ 📂dto
+┃ ┃ ┗ 📂in
+┃ ┗ 📂service
+┗ 📄 MajoongApplication.java
+```
+
+</details>
+<br>
+<details>
+<summary>⛓ BLOCKCHAIN</summary>
+
+```
+📦 blockchain
+ ┣ 📂 contracts
+ ┃ ┣ 📄 FarmVault.sol
+ ┃ ┣ 📄 FarmVaultFactory.sol
+ ┃ ┣ 📄 MaronToken.sol
+ ┃ ┗ 📄 VaultLens.sol
+ ┣ 📂 docs
+ ┃ ┗ 📂 uml
+ ┃ ┃ ┗ 📄 classDiagram.svg
+ ┣ 📂 scripts
+ ┃ ┣ 📄 check-key.js
+ ┃ ┗ 📄 deploy.js
+ ┣ 📂 test
+ ┃ ┣ 📄 e2e.sepolia.test.js
+ ┃ ┗ 📄 token.vault.test.js
+ ┣ 📄 .gitignore
+ ┣ 📄 hardhat.config.js
+ ┣ 📄 package.json
+ ┗ 📄 package-lock.json
+```
+</details>
