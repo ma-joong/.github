@@ -42,11 +42,46 @@
 ---
 
 ## 🛠 기술 스택
-- **Frontend**: React, Vue  
-- **Backend**: Spring Boot, Node.js  
-- **Database**: MySQL, MongoDB  
-- **Infra/DevOps**: AWS, Docker, Jenkins  
-- **Tools**: Git, Jira, Figma  
+<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white">
+<img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white">
+<img src="https://img.shields.io/badge/spring security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white">
+<img src="https://img.shields.io/badge/spring Batch-6DB33F?style=for-the-badge&logo=&logoColor=white">
+<img src ="https://img.shields.io/badge/MySql-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
+<img src ="https://img.shields.io/badge/redis-FF4438?style=for-the-badge&logo=redis&logoColor=white">
+<img src ="https://img.shields.io/badge/openai-412991?style=for-the-badge&logo=openai&logoColor=white">
+<img src ="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white">
+<img src ="https://img.shields.io/badge/kakao Pay-FFCD00?style=for-the-badge&logo=kakao&logoColor=white">
+
+
+---
+
+<img src ="https://img.shields.io/badge/solidity-363636?style=for-the-badge&logo=solidity&logoColor=white">
+<img src ="https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white">
+<img src ="https://img.shields.io/badge/Hardhat-FFF04D?style=for-the-badge&logo=&logoColor=white">
+<img src ="https://img.shields.io/badge/openzeppelin-4E5EE4?style=for-the-badge&logo=openzeppelin&logoColor=white">
+<img src ="https://img.shields.io/badge/ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white">
+
+
+---
+<img src ="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
+<img src ="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+<img src ="https://img.shields.io/badge/tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
+<img src ="https://img.shields.io/badge/Zustand-black?style=for-the-badge&logo=Zustand&logoColor=white">
+<img src ="https://img.shields.io/badge/swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white">
+<img src ="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
+
+---
+<img src ="https://img.shields.io/badge/jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white">
+<img src ="https://img.shields.io/badge/gitlab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white">
+<img src ="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+<img src ="https://img.shields.io/badge/Amazon S3-red?style=for-the-badge&logo=&logoColor=white">
+<img src ="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
+
+---
+<img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=IntelliJIDEA&logoColor=white">
+<img src="https://img.shields.io/badge/Notion-F3F3F3.svg?style=for-the-badge&logo=notion&logoColor=black" />
+ <img src="https://img.shields.io/badge/figma-F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" />
+ <img src="https://img.shields.io/badge/visual studio code-3EAAF2.svg?style=for-the-badge&logo=&logoColor=white" /> 
 
 
 ---
