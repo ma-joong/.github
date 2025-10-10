@@ -8,6 +8,8 @@
 **참여인원**: 5명<br>
 **수행기간**: 2025. 08. 25 - 2025. 10. 02 (7주)
 
+<br>
+
 ## 🚀 프로젝트 소개
 
 - **목적**: 퇴역마 복지를 위한 투명한 후원 및 관리 플랫폼 제공 
@@ -25,6 +27,7 @@
   - 기부자가 목장을 선택하여 기부 및 관리 모니터링
   - 목장주는 운영보고 및 영수증 증빙 업로드
 
+<br>
 
 ## 👨‍👩‍👧‍👦 팀원 소개
 
@@ -41,7 +44,7 @@
 </div>
 
 
----
+<br>
 
 ## 🛠 기술 스택
 
@@ -56,17 +59,12 @@
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white)
 ![Kakao Pay](https://img.shields.io/badge/Kakao%20Pay-FFCD00?style=for-the-badge&logo=Kakao&logoColor=white)
 
-<br>
-
 ### Blockchain
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=Solidity&logoColor=white)
 ![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white)
 ![Hardhat](https://img.shields.io/badge/Hardhat-FFF04D?style=for-the-badge&logo=Hardhat&logoColor=white)
 ![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=for-the-badge&logo=OpenZeppelin&logoColor=white)
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
-
-<br>
-
 
 ### Frontend
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
@@ -76,16 +74,12 @@
 ![Swiper](https://img.shields.io/badge/Swiper-6332F6?style=for-the-badge&logo=Swiper&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white)
 
-<br>
-
 ### DevOps / Infra
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white)
 ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=GitLab&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white)
 ![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=AmazonS3&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=Nginx&logoColor=white)
-
-<br>
 
 ### Tools
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=IntelliJIDEA&logoColor=white)
@@ -163,7 +157,8 @@
   </table>
 </div>
 
----
+<br>
+
 ## 📂 프로젝트 구조
 
 <details>
